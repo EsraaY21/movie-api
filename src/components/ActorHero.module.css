@@ -1,0 +1,59 @@
+.page {
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mainContent {
+  display: flex;
+}
+
+.mainContent img {
+  height: 22rem;
+  margin-right: 4rem;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+  box-shadow: -5px 7px 20px 4px rgba(0, 0, 0, 0.75);
+  border-radius: 2rem;
+}
+
+.text h3 {
+  color: #76d7c4;
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+.text p {
+  font-size: 1.2rem;
+}
+
+.text span {
+  color: #e0e0e0;
+}
+
+.biography p {
+  line-height: 2.1rem;
+  font-size: 1.2rem;
+  color: #e0e0e0;
+}
+
+.movieContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.movies {
+  display: row;
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    overflow: scroll;
+  }
+
+  .mainContent {
+    display: block;
+  }
+}

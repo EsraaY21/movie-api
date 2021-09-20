@@ -1,0 +1,19 @@
+.bookmark {
+  font-size: 1.8rem;
+  stroke: #da4343;
+  stroke-width: 30px;
+  color: #1c1c1c;
+  cursor: pointer;
+}
+
+.bookmark:hover {
+  color: #da4343;
+  stroke: none;
+}
+
+.bookmarked {
+  color: #da4343;
+  stroke: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}

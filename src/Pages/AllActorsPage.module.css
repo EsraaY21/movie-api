@@ -1,0 +1,11 @@
+.actor {
+  width: 250px;
+}
+
+.image {
+  height: 280px;
+}
+
+.image:hover {
+  opacity: 0.8;
+}
