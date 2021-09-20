@@ -1,6 +1,6 @@
 export default function HomeHero() {
   const backgroundImage =
-    'https://images.unsplash.com/photo-1571818684035-c1afe7eab7f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80';
+    'https://images.pexels.com/photos/7234275/pexels-photo-7234275.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260';
 
   return (
     <div className="HomeHero">
@@ -9,9 +9,24 @@ export default function HomeHero() {
         style={{
           background: `url(${backgroundImage})`,
           backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          backgroundPosition: 'center center',
+          backgroundRepeat: 'no-repeat',
+          height: '30rem',
         }}
-      ></div>
+      >
+        <div
+          style={{
+            backgroundColor: 'rgba(0,0,0,0.7)',
+            width: '100%',
+            height: '30rem',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <h1>Find your favourite movies here</h1>
+        </div>
+      </div>
     </div>
   );
 }

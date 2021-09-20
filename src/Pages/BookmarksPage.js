@@ -11,7 +11,7 @@ export default function BookmarksPage() {
       <div className=" gridWrapper">
         <h1 className="gridTitle">Bookmarks</h1>
         <div className="gridContent">
-          {bookMarkedMovies.length < 1 && 'Nothing bookmarked yet'}
+          {bookMarkedMovies.length < 1 && 'Nothing bookmarked yet =('}
           {bookMarkedMovies.map((movie) => (
             <div className="gridContent">
               <Movie key={movie.id} movie={movie} />
